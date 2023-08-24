@@ -1,0 +1,8 @@
+.options{
+    display: flex;
+    flex-direction: column;
+}
+
+.options > select {
+    width: 200px;
+}

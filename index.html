@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapes Area Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="options">
+        <h3>Choose from 1 to 4 : </h3>
+        <label><b>1.</b> Area of Square.</label>
+        <label><b>2.</b> Area of Rectangle.</label>
+        <label><b>3.</b> Area of Circle.</label>
+        <label><b>4.</b> Area of Sphere.</label>
+        <br>
+        <select id="menu" onchange="switchFunction()">
+            <option>---------------------------------</option>
+            <optgroup label="Sides">
+                <option value="1">Area of Square.</option>
+                <option value="2">Area of Rectangle.</option>
+            </optgroup>
+            <optgroup label="Angles">
+                <option value="3">Area of Circle.</option>
+                <option value="4">Area of Sphere.</option>
+            </optgroup>
+        </select>
+    </div>
+
+    <div id="output">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
